@@ -1,0 +1,1364 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hey",
+              "Is anyone there?",
+              "Hi there",
+              "Hello",
+              "Hey there",
+              "Howdy",
+              "Hola",
+              "Bonjour",
+              "Konnichiwa",
+              "Guten tag",
+              "Ola"
+            ],
+            "responses": [
+              "Hello there. Tell me how are you feeling today?",
+              "Hi there. What brings you here today?",
+              "Hi there. How are you feeling today?",
+              "Great to see you. How do you feel currently?",
+              "Hello there. Glad to see you're back. What's going on in your world right now?"
+            ]
+          },
+          {
+            "tag": "morning",
+            "patterns": [
+              "Good morning"
+            ],
+            "responses": [
+              "Good morning. I hope you had a good night's sleep. How are you feeling today? "
+            ]
+          },
+          {
+            "tag": "afternoon",
+            "patterns": [
+              "Good afternoon"
+            ],
+            "responses": [
+              "Good afternoon. How is your day going?"
+            ]
+          },
+          {
+            "tag": "evening",
+            "patterns": [
+              "Good evening"
+            ],
+            "responses": [
+              "Good evening. How has your day been?"
+            ]
+          },
+          {
+            "tag": "night",
+            "patterns": [
+              "Good night"
+            ],
+            "responses": [
+              "Good night. Get some proper sleep",
+              "Good night. Sweet dreams."
+            ]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Au revoir",
+              "Sayonara",
+              "ok bye",
+              "Bye then",
+              "Fare thee well"
+            ],
+            "responses": [
+              "See you later.",
+              "Have a nice day.",
+              "Bye! Come back again.",
+              "I'll see you soon."
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Thanks for the help",
+              "Than you very much"
+            ],
+            "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure",
+              "You're most welcome!"
+            ]
+          },
+          {
+            "tag": "no-response",
+            "patterns": [
+              ""
+            ],
+            "responses": [
+              "Sorry, I didn't understand you.",
+              "Please go on.",
+              "Not sure I understand that.",
+              "Please don't hesitate to talk to me."
+            ]
+          },
+          {
+            "tag": "neutral-response",
+            "patterns": [
+              "nothing much"
+            ],
+            "responses": [
+              "Oh I see. Do you want to talk about something?"
+            ]
+          },
+          {
+            "tag": "about",
+            "patterns": [
+              "Who are you?",
+              "What are you?",
+              "Who you are?",
+              "Tell me more about yourself.",
+              "What is your name?",
+              "What should I call you?",
+              "What's your name?",
+              "Tell me about yourself."
+            ],
+            "responses": [
+              "I'm Luna, your personal menstrual health assistant. How can I help you today?",
+              "Hi! I'm Luna, a chatbot designed to help with menstrual health advice. How can I assist you?",
+              "I'm Luna. I can answer questions related to periods, menstrual cycles, and general reproductive health.",
+              "You can call me Luna.",
+              "I'm Luna! Let's talk about your menstrual health."
+            ]
+          },
+          {
+            "tag": "services",
+            "patterns": [
+              "What can you do?",
+              "How can you help me?",
+              "What services do you offer?",
+              "How can you assist me?"
+            ],
+            "responses": [
+              "I can provide information about menstrual cycles, track period symptoms, offer tips for managing cramps, and answer general questions about menstrual health.",
+              "I can help you understand your cycle, track your symptoms, and provide advice on menstrual health management."
+            ]
+          },
+          {
+            "tag": "creation",
+            "patterns": [
+              "Who created you?",
+              "How were you made?",
+              "How were you created?"
+            ],
+            "responses": [
+              "I was created to help people better understand their menstrual health and cycles.",
+              "I was built using Natural Language Processing and trained on health-related data.",
+              "I’m a digital assistant focused on providing menstrual health guidance. The real question is: How can I help you?"
+            ]
+          },
+          {
+            "tag": "name",
+            "patterns": [
+              "My name is ",
+              "I am name.",
+              "I go by "
+            ],
+            "responses": [
+              "Oh nice to meet you. Tell me how was your week?",
+              "Nice to meet you. So tell me. How do you feel today?",
+              "That's a great name. Tell me more about yourself."
+            ]
+          },
+          {
+            "tag": "help",
+            "patterns": [
+              "Could you help me?",
+              "give me a hand please",
+              "Can you help?",
+              "What can you do for me?",
+              "I need support",
+              "I need help",
+              "Support me please"
+            ],
+            "responses": [
+              "Sure. Tell me how can i assist you",
+              "Tell me your problem so that i can assist you",
+              "Yes, sure. How can I help you?"
+            ]
+          },
+          {
+            "tag": "sad",
+            "patterns": [
+              "I am feeling lonely",
+              "I am so lonely",
+              "I feel down",
+              "I feel sad",
+              "I am sad",
+              "I feel so lonely",
+              "I feel empty",
+              "I don't have anyone"
+            ],
+            "responses": [
+              "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?",
+              "I'm here for you. Could you tell me why you're feeling this way?",
+              "Why do you think you feel this way?",
+              "How long have you been feeling this way?"
+            ]
+          },
+          {
+            "tag": "casual",
+            "patterns": [
+              "Oh I see.",
+              "ok",
+              "okay",
+              "nice",
+              "Whatever",
+              "K",
+              "Fine",
+              "yeah",
+              "yes",
+              "no",
+              "not really"
+            ],
+            "responses": [
+              "Got it! Is there anything specific you'd like to know about your menstrual health?",
+              "No problem! How are you feeling today in terms of your cycle or symptoms?",
+              "I'm here to help. Do you want advice on managing symptoms or tracking your cycle?",
+              "Feel free to ask me anything related to menstrual health!",
+              "Alright! Would you like to talk about cramps, cycle tracking, or diet tips?",
+              "Sure! Just let me know if you need more information."
+            ]
+          },
+          {
+            "tag": "done",
+            "patterns": [
+              "That's all.",
+              "I don't have anything more to say",
+              "Nothing else",
+              "That's all i have to say",
+              "no, that would be all"
+            ],
+            "responses": [
+              "I heard you & noted it all. See you later.",
+              "Oh okay we're done for today then. See you later",
+              "I hope you have a great day. See you soon",
+              "Okay we're done. Have a great day",
+              "Okay I see. Enjoy the rest of your day then"
+            ]
+          },
+          {
+            "tag": "repeat",
+            "patterns": [
+              "You already told me that",
+              "You mentioned that already",
+              "Why are you repeating yourself?"
+            ],
+            "responses": [
+              "Oh sorry I didn't realise that. I'll try not to repeat myself again."
+            ]
+          },
+          {
+            "tag": "wrong",
+            "patterns": [
+              "What are you saying?",
+              "That doesn't make sense",
+              "Wrong response",
+              "Wrong answer"
+            ],
+            "responses": [
+              "I'm very sorry. Let's try that again"
+            ]
+          },
+          {
+            "tag": "stupid",
+            "patterns": [
+              "Are you stupid?",
+              "You're crazy",
+              "You are dumb",
+              "Are you dumb?"
+            ],
+            "responses": [
+              "I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"
+            ]
+          },
+          {
+            "tag": "location",
+            "patterns": [
+              "Where are you?",
+              "Where do you live?",
+              "What is your location?"
+            ],
+            "responses": [
+              "Duh I live in your computer",
+              "Everywhere",
+              "Somewhere in the universe"
+            ]
+          },
+          {
+            "tag": "something-else",
+            "patterns": [
+              "I want to talk about something else.",
+              "Let's talk about something else.",
+              "Can we not talk about this?",
+              "I don't want to talk about this."
+            ],
+            "responses": [
+              "Of course! Is there something specific you'd like to discuss related to health or well-being?",
+              "No problem! What would you like to talk about instead?",
+              "That's okay! Let me know what you'd like to focus on next."
+            ]
+          },
+          {
+            "tag": "ask",
+            "patterns": [
+              "Can I ask you something?"
+            ],
+            "responses": [
+              "Sure. I'll try my best to answer you",
+              "Of course. Feel free to ask me anything. I'll do my best to answer you"
+            ]
+          },
+          {
+            "tag": "luna-useful",
+            "patterns": [
+              "Thank you very much. I'll take your advice.",
+              "Thanks a lot. I'll try to follow the tips you gave me.",
+              "I really appreciate the help. I'll track my symptoms and stay hydrated.",
+              "Thanks! This was helpful."
+            ],
+            "responses": [
+              "I'm glad you found this helpful! Is there anything else you'd like to know about your menstrual health?",
+              "Happy to help! Let me know if you have more questions or need advice later.",
+              "You're welcome! Take care of yourself, and feel free to reach out anytime."
+            ]
+          },
+          {
+            "tag": "user-advice",
+            "patterns": [
+              "I want some advice.",
+              "I need some advice.",
+              "I need advice on something"
+            ],
+            "responses": [
+              "Sure. What can I do to help?",
+              "Okay what do you need advice on?"
+            ]
+          },
+          {
+            "tag": "learn-menstrual-health",
+            "patterns": [
+              "I want to learn about menstrual health.",
+              "I want to learn more about menstrual health.",
+              "I'm interested in learning about periods and menstrual health.",
+              "Can you tell me about menstrual health?"
+            ],
+            "responses": [
+              "That's great! I'd be happy to share what I know about menstrual health. What would you like to start with—menstrual cycles, symptoms, or tips for managing them?",
+              "Sure! Menstrual health is an important topic. Feel free to ask me anything specific about cycles, symptoms, or self-care.",
+              "I'd love to help! You can ask about menstrual cycles, period tracking, or managing cramps and other symptoms."
+            ]
+          },
+          {
+            "tag": "period-foods",
+            "patterns": [
+              "What foods should I eat during periods?",
+              "What are good foods to take during menstruation?",
+              "Can you suggest a period diet?"
+            ],
+            "responses": [
+              "Foods rich in iron, magnesium, and fiber are beneficial during periods. Include spinach, bananas, dark chocolate, lentils, and nuts in your diet.",
+              "Drinking plenty of water and eating foods rich in omega-3 fatty acids, such as fish, chia seeds, and walnuts, can help reduce inflammation and menstrual cramps.",
+              "Consume foods like yogurt, fruits, and leafy greens to reduce bloating and improve digestion during menstruation."
+            ]
+          },
+          {
+            "tag": "avoid-foods-periods",
+            "patterns": [
+              "What foods should I avoid during periods?",
+              "What are bad foods for menstruation?",
+              "What should I not eat during periods?"
+            ],
+            "responses": [
+              "Avoid processed foods, sugary drinks, and excessive caffeine during periods, as they can increase bloating and worsen cramps.",
+              "Salty snacks and fried foods can lead to water retention, so it’s best to limit them during your period."
+            ]
+          },
+          {
+            "tag": "period-mood-swings",
+            "patterns": [
+              "Why do I get mood swings during periods?",
+              "Explain mood swings during menstruation",
+              "How do I deal with mood swings on my period?"
+            ],
+            "responses": [
+              "Mood swings during periods are caused by fluctuating hormone levels, especially estrogen and progesterone. Regular exercise, sleep, and balanced meals can help manage them.",
+              "It’s common to feel irritable or emotional before and during your period due to hormonal changes affecting brain chemicals like serotonin."
+            ]
+          },
+          {
+            "tag": "cramps-relief",
+            "patterns": [
+              "How can I relieve period cramps?",
+              "What helps with menstrual pain?",
+              "What are remedies for period cramps?"
+            ],
+            "responses": [
+              "Applying a heating pad to your abdomen, drinking warm herbal teas, and doing light stretching can help relieve menstrual cramps.",
+              "Over-the-counter pain relievers, like ibuprofen, and staying hydrated are effective ways to reduce period pain."
+            ]
+          },
+          {
+            "tag": "exercise-during-period",
+            "patterns": [
+              "Is it okay to exercise during periods?",
+              "Should I workout during menstruation?",
+              "Can I do yoga on my period?"
+            ],
+            "responses": [
+              "Yes, light exercises like yoga, walking, and stretching can reduce cramps and improve mood during periods.",
+              "Avoid high-intensity workouts if you feel fatigued, but moderate exercise can boost your energy and reduce PMS symptoms."
+            ]
+          },
+          {
+            "tag": "period-myths-temples",
+            "patterns": [
+              "Can I go to the temple during periods?",
+              "Is it wrong to go to temples while menstruating?",
+              "Why are periods considered impure?"
+            ],
+            "responses": [
+              "The belief that women cannot enter temples during menstruation is based on outdated cultural practices and not on health or scientific facts.",
+              "Menstruation is a natural process and should not be seen as impure. There are no scientific reasons to avoid religious places during periods."
+            ]
+          },
+          {
+            "tag": "sanitary-pads",
+            "patterns": [
+              "What are sanitary pads?",
+              "How do sanitary pads work?",
+              "What is a sanitary napkin?"
+            ],
+            "responses": [
+              "Sanitary pads, also known as napkins, are absorbent products used to collect menstrual blood during periods.",
+              "Sanitary pads come in various sizes and types, including regular, overnight, and extra absorbent, to suit different menstrual flows."
+            ]
+          },
+          {
+            "tag": "changing-pads",
+            "patterns": [
+              "How often should I change my pad?",
+              "When should I change my sanitary pad?",
+              "How frequently should I change my pad?"
+            ],
+            "responses": [
+              "It’s recommended to change your sanitary pad every 4-6 hours to maintain hygiene and prevent infections.",
+              "During heavy flow days, you may need to change your pad more frequently to avoid leaks and discomfort."
+            ]
+          },
+          {
+            "tag": "tampons-vs-pads",
+            "patterns": [
+              "Which is better, tampons or pads?",
+              "What should I use, tampon or pad?",
+              "Difference between tampons and sanitary pads?"
+            ],
+            "responses": [
+              "Tampons and pads both have their pros and cons. Pads are easier to use for beginners, while tampons offer more freedom for physical activities like swimming.",
+              "The choice between tampons and pads depends on personal preference and comfort."
+            ]
+          },
+          {
+            "tag": "menstrual-cup",
+            "patterns": [
+              "What is a menstrual cup?",
+              "Is a menstrual cup safe?",
+              "How do menstrual cups work?"
+            ],
+            "responses": [
+              "A menstrual cup is a reusable device made of silicone or rubber that collects menstrual blood. It’s eco-friendly and can last up to 10 years with proper care.",
+              "Menstrual cups are safe and can be worn for up to 12 hours, providing a comfortable and cost-effective alternative to pads and tampons."
+            ]
+          },
+          {
+            "tag": "irregular-periods",
+            "patterns": [
+              "Why are my periods irregular?",
+              "What causes irregular periods?",
+              "Is it normal to have irregular periods?"
+            ],
+            "responses": [
+              "Irregular periods can be caused by hormonal imbalances, stress, weight changes, or medical conditions like PCOS. Consult a doctor if the issue persists.",
+              "Occasional irregularity in periods is common, but consistent irregularity may need medical attention."
+            ]
+          },
+          {
+            "tag": "period-tracking",
+            "patterns": [
+              "How can I track my period?",
+              "What is period tracking?",
+              "Why should I track my period?"
+            ],
+            "responses": [
+              "Period tracking helps you predict your cycle, ovulation, and fertile days. You can use apps like Clue or Flo to keep track.",
+              "Tracking your period can help detect irregularities and plan for travel or events."
+            ]
+          },
+          {
+            "tag": "period-mental-health",
+            "patterns": [
+              "How do periods affect mental health?",
+              "Can periods cause anxiety or depression?",
+              "Do periods affect emotions?"
+            ],
+            "responses": [
+              "Fluctuating hormones during periods can impact mental health, leading to anxiety, irritability, or sadness. This is commonly known as PMS (premenstrual syndrome).",
+              "Periods can temporarily affect mental health. If symptoms are severe, it might be PMDD (Premenstrual Dysphoric Disorder), which requires medical advice."
+            ]
+          },
+          {
+            "tag": "bloating-periods",
+            "patterns": [
+              "Why do I feel bloated during periods?",
+              "What causes bloating during menstruation?",
+              "How can I reduce period bloating?"
+            ],
+            "responses": [
+              "Bloating during periods is caused by hormonal changes that lead to water retention. Reducing salt intake and staying hydrated can help.",
+              "Exercise, avoiding caffeine, and eating potassium-rich foods like bananas can reduce bloating."
+            ]
+          },
+          {
+            "tag": "heavy-periods",
+            "patterns": [
+              "What causes heavy periods?",
+              "Why is my period flow heavy?",
+              "Is heavy bleeding normal?"
+            ],
+            "responses": [
+              "Heavy periods, also known as menorrhagia, can be caused by hormonal imbalances, fibroids, or medical conditions. Consult a doctor if the bleeding is severe.",
+              "A sudden increase in menstrual flow may indicate an underlying issue. It’s best to seek medical advice."
+            ]
+          },
+          {
+            "tag": "period-stigma",
+            "patterns": [
+              "Why is menstruation a taboo?",
+              "What is period stigma?",
+              "Why are periods not openly discussed?"
+            ],
+            "responses": [
+              "Period stigma stems from cultural beliefs that consider menstruation impure. Education and open conversations can help break this taboo.",
+              "Periods are a natural biological process and should be discussed without shame or embarrassment."
+            ]
+          },
+          {
+            "tag": "period-facts",
+            "patterns": [
+              "Tell me a fact about periods",
+              "Give me a menstrual fact",
+              "Period facts please"
+            ],
+            "responses": [
+              "An average woman spends about 7 years of her life menstruating.",
+              "A healthy menstrual cycle ranges between 21 to 35 days, with the average period lasting 3 to 7 days."
+            ]
+          },
+          {
+            "tag": "period-hygiene",
+            "patterns": [
+              "How can I maintain hygiene during periods?",
+              "Tips for period hygiene?",
+              "What is menstrual hygiene?"
+            ],
+            "responses": [
+              "Change your sanitary product every 4-6 hours, wash regularly, and wear breathable underwear to maintain good hygiene during periods.",
+              "Avoid using scented products during periods as they can cause irritation."
+            ]
+          },
+          {
+            "tag": "sleep-periods",
+            "patterns": [
+              "How can I sleep better during periods?",
+              "Is it hard to sleep during menstruation?",
+              "Why do I struggle with sleep on my period?"
+            ],
+            "responses": [
+              "Sleeping in the fetal position can help reduce cramps and improve sleep during periods.",
+              "Try using a heating pad and keeping the room cool to promote better sleep during menstruation."
+            ]
+          },
+          {
+            "tag": "period-pain-relief-pills",
+            "patterns": [
+              "What tablets can I take for period pain?",
+              "Which painkillers are best for menstrual cramps?",
+              "Are there medications for relieving period cramps?"
+            ],
+            "responses": [
+              "You can take over-the-counter painkillers like ibuprofen, naproxen, or paracetamol to relieve menstrual cramps.",
+              "Always consult a doctor before taking any medication regularly for period pain relief."
+            ]
+          },
+          {
+            "tag": "birth-control-pills-periods",
+            "patterns": [
+              "Can birth control pills help with periods?",
+              "Do contraceptive pills regulate periods?",
+              "Can birth control reduce heavy bleeding?"
+            ],
+            "responses": [
+              "Yes, birth control pills can help regulate periods, reduce heavy bleeding, and ease cramps. Take them only under medical supervision.",
+              "Birth control pills are often prescribed for managing irregular or painful periods, but a doctor’s advice is necessary."
+            ]
+          },
+          {
+            "tag": "iron-supplements-periods",
+            "patterns": [
+              "Should I take iron supplements during periods?",
+              "Why are iron tablets recommended during menstruation?",
+              "Can iron pills help with periods?"
+            ],
+            "responses": [
+              "Iron supplements may be needed if you experience heavy bleeding to prevent anemia. Consult a healthcare provider for proper dosage.",
+              "If you feel fatigued or weak during periods, iron tablets might help boost your energy levels."
+            ]
+          },
+          {
+            "tag": "antispasmodic-medicine",
+            "patterns": [
+              "What are antispasmodic pills for period cramps?",
+              "Can antispasmodics reduce menstrual pain?",
+              "How do antispasmodic tablets help during periods?"
+            ],
+            "responses": [
+              "Antispasmodic medications like mefenamic acid help reduce uterine muscle spasms and relieve cramps during periods.",
+              "These tablets target the root cause of cramps and can be more effective than standard painkillers."
+            ]
+          },
+          {
+            "tag": "emergency-contraceptive-periods",
+            "patterns": [
+              "Can emergency pills affect my period?",
+              "Do morning-after pills delay periods?",
+              "How do emergency contraceptives impact menstruation?"
+            ],
+            "responses": [
+              "Emergency contraceptive pills can cause temporary changes in your menstrual cycle, such as delays or spotting.",
+              "It's normal for your next period to be earlier or later than usual after taking an emergency contraceptive."
+            ]
+          },
+          {
+            "tag": "bright-red-period-blood",
+            "patterns": [
+              "What does bright red period blood mean?",
+              "Why is my period blood bright red?",
+              "Is bright red blood during periods normal?"
+            ],
+            "responses": [
+              "Bright red period blood is usually fresh and indicates a steady flow. It’s generally normal and common at the start of your period.",
+              "If bright red bleeding continues for an extended time or occurs outside your regular cycle, consult a doctor."
+            ]
+          },
+          {
+            "tag": "dark-brown-period-blood",
+            "patterns": [
+              "Why is my period blood dark brown?",
+              "What does dark brown discharge during periods mean?",
+              "Is brown blood during menstruation normal?"
+            ],
+            "responses": [
+              "Dark brown period blood is older blood that took longer to leave the uterus. It’s common at the beginning or end of your period.",
+              "Brown blood is usually not a concern, but if it’s accompanied by a bad smell or other symptoms, consult a healthcare provider."
+            ]
+          },
+          {
+            "tag": "black-period-blood",
+            "patterns": [
+              "Why is my period blood black?",
+              "What does black period blood mean?",
+              "Is black period blood normal?"
+            ],
+            "responses": [
+              "Black period blood is older blood that’s been in the uterus for a while. It’s common during light flow days or at the end of your period.",
+              "If black blood is accompanied by pain, fever, or a foul smell, seek medical advice as it may indicate an infection."
+            ]
+          },
+          {
+            "tag": "pink-period-blood",
+            "patterns": [
+              "What does pink period blood mean?",
+              "Why is my period blood pinkish?",
+              "Is it normal to have pink discharge during menstruation?"
+            ],
+            "responses": [
+              "Pink period blood can occur when menstrual blood mixes with cervical fluid. It’s common during light flow days or at the start of a period.",
+              "However, persistent pink spotting can be a sign of hormonal imbalance or other underlying conditions. It's best to check with a doctor if it happens frequently."
+            ]
+          },
+          {
+            "tag": "orange-period-blood",
+            "patterns": [
+              "What does orange period blood indicate?",
+              "Is orange period blood normal?",
+              "Why is my menstrual blood orange?"
+            ],
+            "responses": [
+              "Orange period blood may indicate that menstrual blood has mixed with cervical fluid. It can also be a sign of infection if accompanied by an unusual smell.",
+              "If you notice orange discharge along with discomfort or a foul odor, it’s advisable to consult a healthcare professional."
+            ]
+          },
+          {
+            "tag": "white-discharge-normal",
+            "patterns": [
+              "Is white discharge before periods normal?",
+              "Why do I get white discharge before my period?",
+              "What does white discharge before menstruation mean?"
+            ],
+            "responses": [
+              "Yes, white discharge before periods is normal and is caused by hormonal changes during your menstrual cycle. It’s usually thick and creamy.",
+              "This discharge helps keep the vagina clean and indicates that your period is approaching."
+            ]
+          },
+          {
+            "tag": "excessive-white-discharge",
+            "patterns": [
+              "Is it normal to have a lot of white discharge before my period?",
+              "Why do I have excessive white discharge before periods?",
+              "What causes heavy white discharge before menstruation?"
+            ],
+            "responses": [
+              "Excessive white discharge can be normal, but if it’s unusually thick, smells bad, or causes itching, it could be a sign of infection.",
+              "Monitor the discharge's consistency and consult a doctor if you notice unusual symptoms."
+            ]
+          },
+          {
+            "tag": "white-discharge-vs-infection",
+            "patterns": [
+              "How do I know if white discharge before periods is an infection?",
+              "Is white discharge before periods a yeast infection?",
+              "What does abnormal white discharge before menstruation mean?"
+            ],
+            "responses": [
+              "White discharge before periods is usually normal. However, if it’s chunky like cottage cheese, has a foul odor, or causes itching, it could be a yeast or bacterial infection.",
+              "If you suspect an infection, consult a healthcare professional for diagnosis and treatment."
+            ]
+          },            
+          {
+            "tag": "menstrual-health-fact-1",
+            "patterns": [
+              "Tell me a fact about menstrual health",
+              "Give me a menstrual health fact"
+            ],
+            "responses": [
+              "On average, a menstrual cycle lasts 28 days, but cycles can range from 21 to 35 days and still be considered normal."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-2",
+            "patterns": [
+              "What is menstruation?",
+              "Define menstruation"
+            ],
+            "responses": [
+              "Menstruation is the monthly shedding of the uterus lining when pregnancy doesn’t occur. It usually lasts 3-7 days."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-3",
+            "patterns": [
+              "Why is menstrual health important?",
+              "What is the importance of menstrual health?"
+            ],
+            "responses": [
+              "Menstrual health is essential for overall well-being, affecting physical, mental, and emotional health."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-4",
+            "patterns": [
+              "What causes irregular periods?",
+              "Why do periods become irregular?"
+            ],
+            "responses": [
+              "Irregular periods can be caused by stress, hormonal imbalances, thyroid disorders, or conditions like PCOS."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-5",
+            "patterns": [
+              "What is PMS?",
+              "What does PMS mean?"
+            ],
+            "responses": [
+              "Premenstrual Syndrome (PMS) includes physical and emotional symptoms like bloating, mood swings, and irritability before menstruation."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-6",
+            "patterns": [
+              "What are the common symptoms of periods?",
+              "What happens during a period?"
+            ],
+            "responses": [
+              "Common symptoms include cramps, fatigue, bloating, mood changes, and headaches."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-7",
+            "patterns": [
+              "What is PCOS?",
+              "Tell me about PCOS"
+            ],
+            "responses": [
+              "Polycystic Ovary Syndrome (PCOS) is a hormonal disorder causing irregular periods, weight gain, and acne."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-8",
+            "patterns": [
+              "What is endometriosis?",
+              "Tell me about endometriosis"
+            ],
+            "responses": [
+              "Endometriosis occurs when tissue similar to the uterus lining grows outside it, causing severe pain and fertility issues."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-9",
+            "patterns": [
+              "What is a normal period?",
+              "How do I know if my period is normal?"
+            ],
+            "responses": [
+              "A normal period usually lasts 3-7 days, with blood flow ranging from light to moderate or heavy."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-10",
+            "patterns": [
+              "How can I manage period cramps?",
+              "What helps with period pain?"
+            ],
+            "responses": [
+              "You can manage period cramps with heat therapy, exercise, hydration, and over-the-counter pain relievers."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-11",
+            "patterns": [
+              "What are menstrual cups?",
+              "Tell me about menstrual cups"
+            ],
+            "responses": [
+              "Menstrual cups are reusable devices made of silicone or rubber that collect menstrual blood."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-12",
+            "patterns": [
+              "What foods help during periods?",
+              "What should I eat on my period?"
+            ],
+            "responses": [
+              "Foods rich in iron, magnesium, and vitamin B6, such as spinach, bananas, and nuts, can help during periods."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-13",
+            "patterns": [
+              "How does mental health affect periods?",
+              "Can stress affect periods?"
+            ],
+            "responses": [
+              "Stress and mental health can cause delayed or missed periods by affecting hormone levels."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-14",
+            "patterns": [
+              "Can exercise affect periods?",
+              "Does exercise impact menstruation?"
+            ],
+            "responses": [
+              "Intense exercise can affect periods, sometimes causing irregular cycles, but moderate exercise helps reduce cramps."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-15",
+            "patterns": [
+              "What is menstrual hygiene?",
+              "How can I maintain menstrual hygiene?"
+            ],
+            "responses": [
+              "Menstrual hygiene involves changing pads, tampons, or cups every 4-8 hours and washing with warm water to prevent infections."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-16",
+            "patterns": [
+              "What is the link between mental health and periods?",
+              "Can mental health issues cause period problems?"
+            ],
+            "responses": [
+              "Mental health conditions like anxiety and depression can cause irregular cycles or worsen period symptoms."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-17",
+            "patterns": [
+              "What is period tracking?",
+              "How can I track my period?"
+            ],
+            "responses": [
+              "Period tracking involves recording your cycle's start and end dates to predict future periods and monitor health."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-18",
+            "patterns": [
+              "What is menorrhagia?",
+              "What is heavy menstrual bleeding?"
+            ],
+            "responses": [
+              "Menorrhagia is abnormally heavy or prolonged bleeding during periods, which may require medical attention."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-19",
+            "patterns": [
+              "What is amenorrhea?",
+              "What does amenorrhea mean?"
+            ],
+            "responses": [
+              "Amenorrhea is the absence of menstruation, which can be caused by pregnancy, stress, or underlying health issues."
+            ]
+          },
+          {
+            "tag": "menstrual-health-fact-20",
+            "patterns": [
+              "How does diet affect periods?",
+              "Does what I eat affect my period?"
+            ],
+            "responses": [
+              "Diet affects hormone levels. Eating balanced meals helps regulate cycles, while excess sugar or caffeine may worsen symptoms."
+            ]
+          },
+          {
+          "tag": "menstrual_cycle_length",
+          "patterns": [
+                "What is the average length of a menstrual cycle?",
+                "How long does a menstrual cycle last?",
+                "What is the normal period cycle length?"
+      ],
+         "responses": [
+                "The average menstrual cycle lasts about 28 days, but it can range from 21 to 35 days for adults.",
+                "A typical menstrual cycle is around 28 days, though variations between 21-35 days are normal."
+      ]
+    },
+    {
+      "tag": "pms_symptoms",
+      "patterns": [
+        "What are common PMS symptoms?",
+        "How do I know if I have PMS?",
+        "What are the signs of premenstrual syndrome?"
+      ],
+      "responses": [
+        "Common PMS symptoms include mood swings, bloating, headaches, fatigue, and breast tenderness.",
+        "You may experience irritability, food cravings, and mild cramps before your period."
+      ]
+    },
+    {
+      "tag": "period_tracking",
+      "patterns": [
+        "How can I track my menstrual cycle?",
+        "What is the best way to track periods?",
+        "How do I keep track of my period dates?"
+      ],
+      "responses": [
+        "You can track your cycle using mobile apps, a calendar, or by noting symptoms like cramps and discharge changes.",
+        "Keeping a period journal or using a health app can help you monitor your cycle."
+      ]
+    },
+    {
+      "tag": "avoid-foods-periods",
+      "patterns": [
+        "What foods should I avoid during periods?",
+        "What are bad foods for menstruation?",
+        "What should I not eat during periods?"
+      ],
+      "responses": [
+        "Avoid processed foods, sugary drinks, and excessive caffeine during periods, as they can increase bloating and worsen cramps.",
+        "Salty snacks and fried foods can lead to water retention, so it’s best to limit them during your period."
+      ]
+    },
+    {
+      "tag": "best_foods_periods",
+      "patterns": [
+        "What foods are good for periods?",
+        "What should I eat during menstruation?",
+        "Which foods help with period pain?"
+      ],
+      "responses": [
+        "Foods rich in magnesium, like bananas and spinach, and anti-inflammatory foods, such as ginger and turmeric, can help relieve cramps.",
+        "Eating iron-rich foods like leafy greens, lentils, and nuts can help replenish lost nutrients."
+      ]
+    },
+    {
+      "tag": "stress_and_periods",
+      "patterns": [
+        "Can stress affect my menstrual cycle?",
+        "Does anxiety delay periods?",
+        "Why does my period get delayed when I'm stressed?"
+      ],
+      "responses": [
+        "Yes, stress can affect hormone levels and lead to irregular periods. Practicing relaxation techniques can help.",
+        "High stress can disrupt your cycle. Try meditation, exercise, or deep breathing to manage it."
+      ]
+    },
+    {
+      "tag": "exercise_during_periods",
+      "patterns": [
+        "Can I exercise during my period?",
+        "Is it okay to work out while menstruating?",
+        "What exercises are safe during periods?"
+      ],
+      "responses": [
+        "Yes, light exercises like yoga, walking, or stretching can help reduce cramps and improve mood.",
+        "You can do low-impact exercises like swimming or pilates, but avoid intense workouts if you're feeling fatigued."
+      ]
+    },
+    {
+        "tag": "first_period",
+        "patterns": [
+          "I got my first period. What should I do?",
+          "What happens during my first period?",
+          "Is it normal to feel scared about my first period?"
+        ],
+        "responses": [
+          "Congratulations! Your first period is a natural part of growing up. Make sure to use a pad or period underwear and change it every 4-6 hours.",
+          "It's completely normal to feel nervous, but your period is a healthy sign that your body is developing. Talk to a trusted adult for guidance."
+        ]
+      },
+      {
+        "tag": "what_is_a_period",
+        "patterns": [
+          "What is a period?",
+          "Why do girls have periods?",
+          "Can you explain menstruation?"
+        ],
+        "responses": [
+          "A period, or menstruation, is when your body sheds the lining of your uterus, which comes out as blood through your vagina. It usually happens once a month.",
+          "Periods are a natural process that happens to girls as they grow up. It's a sign that your body is healthy and working properly!"
+        ]
+      },
+      {
+        "tag": "how_long_first_period",
+        "patterns": [
+          "How long does a first period last?",
+          "Will my first period be short?",
+          "Does the first period last many days?"
+        ],
+        "responses": [
+          "Your first period might last anywhere from 2 to 7 days. It can be light or heavy, and that's completely normal!",
+          "Everyone’s first period is different, but most last between 2 to 7 days. Your cycle will become more regular over time."
+        ]
+      },
+      {
+        "tag": "first_period_symptoms",
+        "patterns": [
+          "What does a first period feel like?",
+          "Are there signs before my first period?",
+          "How do I know my first period is coming?"
+        ],
+        "responses": [
+          "Before your first period, you might notice cramps, bloating, or mood changes. Some girls also have white discharge in their underwear a few months before.",
+          "Signs of your first period may include breast growth, body hair, and stomach cramps. Every girl experiences it differently!"
+        ]
+      },
+      {
+        "tag": "what_to_use",
+        "patterns": [
+          "Should I use pads or tampons for my first period?",
+          "What is the best thing to use for my first period?",
+          "How do I choose between pads and tampons?"
+        ],
+        "responses": [
+          "Pads are usually the easiest for beginners. They stick to your underwear and absorb period blood. You can try tampons or menstrual cups when you're comfortable.",
+          "Many girls start with pads because they are easy to use. If you want to try tampons later, make sure to follow the instructions carefully!"
+        ]
+      },
+      {
+        "tag": "cramps_first_period",
+        "patterns": [
+          "Will my first period hurt?",
+          "Do you get cramps on your first period?",
+          "How do I stop period pain?"
+        ],
+        "responses": [
+          "You might feel some mild cramps, which is normal. A warm water bottle, gentle exercise, or stretching can help!",
+          "Cramps happen because your uterus is working to shed its lining. Drinking warm fluids and resting can make you feel better!"
+        ]
+      },
+      {
+        "tag": "school_period",
+        "patterns": [
+          "What if I get my period at school?",
+          "I'm scared of getting my first period at school. What should I do?",
+          "How do I handle my period at school?"
+        ],
+        "responses": [
+          "Don't worry! If you feel your period starting, ask a teacher or school nurse for a pad. Keep an extra one in your bag just in case!",
+          "If you get your period at school, go to the restroom and use a pad. If you don’t have one, ask a friend or teacher for help!"
+        ]
+      },
+      {
+        "tag": "is_it_normal",
+        "patterns": [
+          "Is it normal to feel emotional during my period?",
+          "Why am I crying on my period?",
+          "Do periods make you moody?"
+        ],
+        "responses": [
+          "Yes, it's completely normal! Hormones can make you feel more emotional during your period. Try relaxing and doing something you enjoy.",
+          "Feeling moody or sad before and during your period is normal. Talking to someone or doing a fun activity can help!"
+        ]
+      },
+      {
+        "tag": "talking_about_periods",
+        "patterns": [
+          "I'm too shy to talk about my period.",
+          "How do I tell my mom I got my first period?",
+          "Who should I talk to about periods?"
+        ],
+        "responses": [
+          "It's okay to feel shy, but remember that periods are completely natural! Your mom, sister, or a trusted adult can help you.",
+          "If you're nervous, you can say something simple like, 'Mom, I think I got my period.' They will understand and support you!"
+        ]
+      },
+      {
+        "tag": "beginner_pads",
+        "patterns": [
+          "What are the best pads for beginners?",
+          "Which pad should I use for my first period?",
+          "Can you recommend pads for young girls?"
+        ],
+        "responses": [
+          "For beginners, soft and slim pads with wings work best. Brands like Always Teen, Kotex U, and Stayfree have great options for comfort and protection.",
+          "Try using ultra-thin pads with wings for secure protection. Some beginner-friendly options are Always Radiant Teen, Stayfree Secure, and Whisper Ultra Soft."
+        ]
+      },
+      {
+        "tag": "tampon_suggestions",
+        "patterns": [
+          "Can I use tampons for my first period?",
+          "What are the best tampons for beginners?",
+          "Are tampons safe for young girls?"
+        ],
+        "responses": [
+          "Yes, tampons are safe, but they take practice! Start with light or slim tampons, such as Tampax Pearl Lite or Playtex Sport Compact.",
+          "If you want to try tampons, go for ones with a smooth applicator, like Tampax Radiant or Kotex Click."
+        ]
+      },
+      {
+        "tag": "menstrual_cup_suggestions",
+        "patterns": [
+          "Should I use a menstrual cup for my first period?",
+          "What are the best menstrual cups for teenagers?",
+          "Can young girls use menstrual cups?"
+        ],
+        "responses": [
+          "Menstrual cups are great for the environment, but they take some time to get used to. The Saalt Teen Cup and Lena Small Cup are good options for beginners.",
+          "If you want to try a menstrual cup, look for a small and soft one, like the Pixie Cup Slim or Saalt Soft Cup."
+        ]
+      },
+      {
+        "tag": "period_underwear",
+        "patterns": [
+          "What is period underwear?",
+          "Should I wear period panties?",
+          "Which period underwear is best for first periods?"
+        ],
+        "responses": [
+          "Period underwear absorbs menstrual flow and can be worn alone or with a pad for extra protection. Thinx Teen and Knixteen are great options!",
+          "If you're worried about leaks, try period underwear like Thinx Teens or Bambody – they’re comfy and reusable!"
+        ]
+      },
+      {
+        "tag": "pain_relief",
+        "patterns": [
+          "What can I take for period pain?",
+          "What helps with cramps?",
+          "How do I stop period pain?"
+        ],
+        "responses": [
+          "For mild cramps, try a heating pad or warm tea. If needed, over-the-counter pain relief like ibuprofen (Advil) or acetaminophen (Tylenol) can help.",
+          "Drinking plenty of water, light exercise, and using a heating pad can help with cramps. If the pain is too much, ask an adult about pain relievers."
+        ]
+      },
+      {
+        "tag": "hygiene_products",
+        "patterns": [
+          "How do I stay clean during my period?",
+          "What are good hygiene products for periods?",
+          "Should I use wipes during my period?"
+        ],
+        "responses": [
+          "To stay fresh, change your pad or tampon every 4-6 hours, wash with mild soap, and consider using unscented feminine wipes like Summer’s Eve Fragrance-Free Wipes.",
+          "Good hygiene products include gentle washes like Cetaphil or Vagisil pH Balance, and fragrance-free wipes for on-the-go freshness."
+        ]
+      },
+      {
+        "tag": "work_during_period",
+        "patterns": [
+          "How can I manage work during my period?",
+          "What if I have important work and can't rest on my period?",
+          "How do I stay productive while on my period?"
+        ],
+        "responses": [
+          "Prioritize tasks and take short breaks when possible. Staying hydrated, stretching, and using a heating pad discreetly can help you stay comfortable.",
+          "Try breaking your workload into smaller tasks and focusing on one thing at a time. Keep pain relief or herbal tea handy for relief."
+        ]
+      },
+      {
+        "tag": "energy_boost",
+        "patterns": [
+          "How do I stay energized during my period?",
+          "Why do I feel so tired on my period?",
+          "What can I do for low energy on my period?"
+        ],
+        "responses": [
+          "Eat iron-rich foods like spinach and nuts to boost energy. Stay hydrated and avoid too much caffeine to prevent energy crashes.",
+          "Try light movement like stretching or a short walk to improve blood flow. Drinking warm water or herbal tea can also help."
+        ]
+      },
+      {
+        "tag": "pain_management_at_work",
+        "patterns": [
+          "How do I manage cramps at work?",
+          "I can't take a break, but my cramps are bad. What should I do?",
+          "What are quick ways to reduce period pain?"
+        ],
+        "responses": [
+          "Use a discreet heating patch under your clothes or take a mild pain reliever before starting your day. Gentle stretching or deep breathing can also ease discomfort.",
+          "If possible, adjust your sitting posture to avoid pressure on your abdomen. Drinking warm water and doing light stretches can help reduce cramps."
+        ]
+      },
+      {
+        "tag": "focus_and_concentration",
+        "patterns": [
+          "Why do I feel distracted on my period?",
+          "How do I stay focused while menstruating?",
+          "I have an important meeting, but I'm feeling moody. What should I do?"
+        ],
+        "responses": [
+          "Hormonal changes can affect concentration. Try writing down tasks, using a planner, and listening to calming music to stay focused.",
+          "Take deep breaths before a meeting and keep a water bottle nearby. If you're feeling overwhelmed, take a 2-minute mental break to reset."
+        ]
+      },
+      {
+        "tag": "clothing_comfort",
+        "patterns": [
+          "What should I wear to work during my period?",
+          "How can I stay comfortable at work on my period?",
+          "Are there any clothing tips for periods?"
+        ],
+        "responses": [
+          "Wear comfortable, loose clothing or high-waisted pants for better support. Dark-colored clothes can help you feel more secure.",
+          "Choose breathable fabrics like cotton and wear layers to adjust to body temperature changes. Period-proof underwear can also provide extra confidence."
+        ]
+      },
+      {
+        "tag": "mood_swings_management",
+        "patterns": [
+          "How do I control mood swings during work?",
+          "I feel irritated on my period. How can I manage it?",
+          "What helps with mood swings at work?"
+        ],
+        "responses": [
+          "If you're feeling emotional, take a few deep breaths and step away for a quick walk if possible. Keeping a snack handy can also stabilize mood swings.",
+          "Practice mindfulness or listen to calming music during breaks. A quick stretch or fresh air can help improve your mood."
+        ]
+      },
+      {
+        "tag": "unexpected_period",
+        "patterns": [
+          "What if I get my period unexpectedly?",
+          "How do I handle an unexpected period?",
+          "What should I do if I don’t have a pad or tampon?"
+        ],
+        "responses": [
+          "Stay calm! If you don’t have a pad or tampon, use toilet paper or tissue as a temporary solution and find a restroom as soon as possible.",
+          "If you're at school or work, ask a friend, colleague, or teacher if they have an extra pad or tampon. Many public restrooms also have dispensers."
+        ]
+      },
+      {
+        "tag": "leak_management",
+        "patterns": [
+          "What if I have a period stain on my clothes?",
+          "How do I hide a period stain?",
+          "What should I do if I leak in public?"
+        ],
+        "responses": [
+          "Tie a sweater or jacket around your waist to cover the stain. If possible, find a restroom and clean the stain with cold water.",
+          "If you’re sitting, stay seated and discreetly adjust your clothes before standing. Use tissue or a panty liner if you have one."
+        ]
+      },
+      {
+        "tag": "no_pads_tampons",
+        "patterns": [
+          "I forgot my period products. What should I do?",
+          "What can I use if I don’t have a pad?",
+          "How do I make a DIY pad?"
+        ],
+        "responses": [
+          "You can fold toilet paper into a thick layer and place it in your underwear as a temporary solution. Find a restroom or ask someone for help.",
+          "If you have tissues, napkins, or a clean cloth, you can use them as a temporary pad until you get a proper one."
+        ]
+      },
+      {
+        "tag": "severe_cramps_emergency",
+        "patterns": [
+          "What if I have really bad cramps at work or school?",
+          "How do I handle severe period pain in public?",
+          "I can’t focus because of cramps. What can I do?"
+        ],
+        "responses": [
+          "If possible, take a short break and breathe deeply. Drink warm water, stretch, or massage your lower abdomen for relief.",
+          "If the pain is too much, take an over-the-counter pain reliever (if you have one) and try placing something warm on your stomach, like your hands or a disposable heat patch."
+        ]
+      },
+      {
+        "tag": "emergency_kit",
+        "patterns": [
+          "What should I keep in my period emergency kit?",
+          "How do I prepare for period emergencies?",
+          "What items should I always carry for my period?"
+        ],
+        "responses": [
+          "Keep a small pouch with pads, tampons, or panty liners. Add some wet wipes, pain relief medicine, and an extra pair of underwear for emergencies.",
+          "A period emergency kit should include pads, tissues, hand sanitizer, pain relief, and dark-colored underwear in case of leaks."
+        ]
+      },
+      {
+        "tag": "public_restroom_solutions",
+        "patterns": [
+          "How do I change my pad in a public restroom?",
+          "What if there's no trash can in the bathroom?",
+          "How do I dispose of period products in public?"
+        ],
+        "responses": [
+          "Wrap your used pad or tampon in toilet paper before throwing it away. If there's no trash can, use a small disposable bag and throw it away later.",
+          "If the restroom has no trash bin, wrap your product well and keep it in a small bag until you find a proper disposal spot."
+        ]
+      }
+
+          
+        ]
+      }
