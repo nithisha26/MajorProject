@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><h1>SheCares</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Worried about your cycle?</h1>
+        <button class="btn" onclick="location.href='/chat'">Chat Now</button>
+    </section>
+
+    <section id="features" class="features">
+        <h2>FEATURES</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <img src="{{ url_for('static', filename='images/moodswings.jpg') }}" alt="Mood Enhancement">
+                <h3>Mood Swings</h3>
+                <p>Track and manage mood fluctuations with daily tips and gentle reminders</p>
+            </div>
+            <div class="feature-card">
+                <img src="{{ url_for('static', filename='images/cramps.jpg') }}" alt="Suggestions">
+                <h3>Cramps</h3>
+                <p>Get personalized advice to alleviate menstrual cramps and enhance comfort</p>
+            </div>
+            <div class="feature-card">
+                <img src="{{ url_for('static', filename='images/yoga.png') }}" alt="Storage and Analysis">
+                <h3>Exercises and Yoga</h3>
+                <p>Friendly workouts and yoga poses to maintain fitness, reduce discomfort, and promote relaxation.</p>
+            </div>
+        </div>
+    </section>
+    <!-- blogs Section -->
+    <section id="blogs" class="blogs">
+        <h2>BLOGS</h2>
+        <div class="features-container">
+            <div class="blog-card">
+                
+                <a href="https://www.helpingwomenperiod.org/category/blog/"><img src="{{ url_for('static', filename='images/Craving.jpg') }}" alt="Mood Enhancement"></a>
+            </div>
+            <div class="blog-card">
+               <a href="https://www.ujaas.in/blogs/menstrual-health-education-best-practices-for-schools-and-communities"><img src="{{ url_for('static', filename='images/educate.jpg') }}" alt="Suggestions"></a> 
+              
+            </div>
+            <div class="blog-card">
+                <a href="https://kangaroocareindia.com/blogs/menstrual-hygiene-essential-tips-for-every-woman/161"><img src="{{ url_for('static', filename='images/hygiene.jpg') }}" alt="Storage and Analysis"></a>
+             
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>ABOUT</h2>
+                <p>
+                    Menstrual Health Chatbot aims to bridge that gap by 
+                    offering a supportive, informative, and easily accessible resource for anyone seeking to better 
+                    understand and manage their menstrual cycle. Through friendly, AI-driven conversations,
+                    the chatbot addresses common concerns, tracks symptoms, and provides guidance for day-to-day care.
+                </p>
+                <p>
+                    This chatbot delivers reliable information and suggestions to help you stay prepared and comfortable. 
+                    By logging daily experiences, users can gain deeper insights into patterns and triggers, ultimately 
+                    promoting a more proactive approach to menstrual health.
+                </p>
+                <p>
+                    SheCares Chatbot encourages overall wellness by offering stress management strategies, nutritional advice, 
+                    and emotional support. It is designed not only to inform but also to empower users to make confident decisions 
+                    about their bodies.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="{{ url_for('static', filename='images/about.png') }}" alt="Chatbot Illustration">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
